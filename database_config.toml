@@ -1,0 +1,21 @@
+# put your secret values and credentials here. do not share this file and do not push it to github
+
+[sakila_wh.stg]
+connection_string = "postgresql://loader:Rahul_1234@localhost:5432/sakila_wh"
+
+[sakila_wh.shd]
+connection_string = "postgresql://loader:Rahul_1234@localhost:5432/sakila_wh"
+
+[postgres.rfam]
+connection_string = "postgresql://loader:Rahul_1234@localhost:5432/postgres"
+
+[adventure_db.stg]
+connection_string = "postgresql://loader:Rahul_1234@localhost:5432/adventure_db"
+
+[from_schema.destination.postgres.credentials]
+database = "dlt_data" # please set me up!
+password = "Rahul_1234" # please set me up!
+username = "loader" # please set me up!
+host = "localhost" # please set me up!
+port = 5432
+connect_timeout = 15
